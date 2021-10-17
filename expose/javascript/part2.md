@@ -32,3 +32,8 @@
     5.  false because true is a boolean which is either a 1 or 0. 1 < 2, so it returns false.
     6.  true because Boolean(2) turns 2 into a boolean type which will be true or 1 and 1 == 1. 
 15. The == vs === is the equal operator and the strictly equals operator. equal operator doesn't care about data types and allows javascript to convert it to the same data type. The === (strictly equals) operator requires the two inputs to be of the same data type. 
+16. Answer in the javascript file
+17. This will return [2,4,6] because we pass in the *doSomething* callback function which is called in the loop and then pushed that value into the new array. 
+18. Answer in the javascript file
+19. It outputs 1, 4, 3, 2. This is because the first line prints out 1, then the next two lines are using call back functions, so it runs it in the background and continues to the fourth line and prints 4. After it's done executing what it can, it goes back to the call back functions that have completed. At this time it will print 3, but now we have a delay to print 2 which will eventually print.
+    
